@@ -1,0 +1,23 @@
+{
+  "name": "flafla-cs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fla-fla/flafla-comingsoon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fla-fla/flafla-comingsoon/issues"
+  },
+  "homepage": "https://github.com/Fla-fla/flafla-comingsoon#readme",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}

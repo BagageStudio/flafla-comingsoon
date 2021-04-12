@@ -1,0 +1,48 @@
+::-moz-selection {
+    background: rgba($black, 0.99);
+    color: $white;
+    text-shadow: none;
+}
+::selection {
+    background: rgba($black, 0.99);
+    color: $white;
+    text-shadow: none;
+}
+
+html {
+    font-size: 62.5%; /* sets the base font to 10px for easier math */
+}
+
+body {
+    font: 1.6em / 1.63 $ibm;
+    color: $black;
+    font-kerning: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+strong {
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    max-width: 100%;
+}
+
+.visually-hidden {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    position: absolute !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+}
