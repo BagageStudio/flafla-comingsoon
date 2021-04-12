@@ -2,9 +2,11 @@
   "name": "flafla-cs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/*.html --open",
+    "build:parcel": "parcel build src/*.html --no-source-maps",
+    "build": "npm run clean && npm run build:parcel",
+    "clean": "rm -rf dist/*"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,9 @@
   },
   "homepage": "https://github.com/Fla-fla/flafla-comingsoon#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "cssnano": "^5.0.0",
+    "postcss": "^8.2.10",
     "sass": "^1.32.8"
   }
 }
