@@ -22,6 +22,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-beta.2",
     "cssnano": "^5.0.0",
+    "parcel": "*",
     "postcss": "^8.2.10",
     "sass": "^1.32.8"
   }
