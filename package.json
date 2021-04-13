@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/Fla-fla/flafla-comingsoon#readme",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.0.0-beta.2",
     "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "@parcel/transformer-webmanifest": "^2.0.0-beta.2",
     "cssnano": "^5.0.0",
     "parcel": "*",
     "postcss": "^8.2.10",
