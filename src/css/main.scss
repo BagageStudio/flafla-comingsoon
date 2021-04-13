@@ -49,6 +49,10 @@
     line-height: 24px;
     text-decoration: none;
     color: $dark;
+    transition: color 0.2s ease-out;
+    &:hover {
+        color: $black;
+    }
     &.underlined {
         text-decoration: underline;
     }
@@ -86,6 +90,10 @@
     a {
         text-decoration: none;
         color: $dark;
+        transition: color 0.2s ease-out;
+        &:hover {
+            color: $black;
+        }
     }
 }
 
