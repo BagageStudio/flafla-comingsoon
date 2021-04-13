@@ -62,5 +62,18 @@ svg {
     margin-left: -#{$grid-gutter-s};
 }
 .has-gutter {
-    padding: 0 #{$grid-gutter-s};
+    padding-left: #{$grid-gutter-s};
+    padding-right: #{$grid-gutter-s};
+}
+
+@media (min-width: $desktop-small) {
+    /* Grid */
+    .container {
+        width: calc(100% + #{2 * $grid-gutter-l});
+        margin-left: -#{$grid-gutter-l};
+    }
+    .has-gutter {
+        padding-left: #{$grid-gutter-l};
+        padding-right: #{$grid-gutter-l};
+    }
 }
