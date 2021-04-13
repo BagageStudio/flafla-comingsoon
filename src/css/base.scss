@@ -88,8 +88,24 @@ svg {
 }
 
 /* Projects */
+
 .project {
     padding: 25px 0 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: $black;
+    align-items: flex-start;
+}
+.title {
+    font-size: 2.4rem;
+}
+.expertises {
+    font-weight: 300;
+    font-size: 2rem;
+}
+.label {
+    font-size: 1.5rem;
 }
 
 @media (min-width: $desktop-small) {
